@@ -279,7 +279,7 @@ script = ExtResource("4_m4xql")
 [node name="Inventario" type="Node" parent="." unique_id=1996447661]
 script = ExtResource("5_84duy")
 
-[node name="crafting" type="Node" parent="." unique_id=1812241056]
+[node name="Crafting" type="Node" parent="." unique_id=1812241056]
 script = ExtResource("6_ih43v")
 
 [node name="AreaDeteccao" type="Area2D" parent="." unique_id=1402377062]
