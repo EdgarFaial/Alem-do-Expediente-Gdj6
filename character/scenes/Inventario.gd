@@ -19,6 +19,7 @@ func adicionar_item(item: ItemBase, quantidade: int = 1) -> bool:
 		print("✅ Novo item adicionado")
 	
 	inventario_atualizado.emit()
+	print(itens)
 	return true
 
 func remover_item(item_id: String, quantidade: int = 1) -> bool:

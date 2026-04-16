@@ -6,15 +6,17 @@
 script = ExtResource("1_2uudg")
 
 [node name="Panel" type="Panel" parent="." unique_id=214735531]
-anchors_preset = -1
-anchor_left = -0.023000002
-anchor_top = -0.037
-anchor_right = -0.023000002
-anchor_bottom = -0.037
-offset_left = -0.5039978
-offset_top = -0.024000168
-offset_right = 399.496
-offset_bottom = 299.976
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -150.0
+offset_right = 200.0
+offset_bottom = 150.0
+grow_horizontal = 2
+grow_vertical = 2
 
 [node name="GridContainer" type="GridContainer" parent="Panel" unique_id=306497638]
 layout_mode = 0

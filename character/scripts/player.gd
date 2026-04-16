@@ -109,3 +109,5 @@ func criar_item_teste_no_chao():
 	get_parent().add_child(coletavel)
 	
 	print("Item de teste criado na posição: ", coletavel.position)
+func add_coletavel(coletavel):
+	print("addicionando coletavel: ")

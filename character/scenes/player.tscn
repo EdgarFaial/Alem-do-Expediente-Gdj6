@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://ilov0alj41g7" path="res://char_a_p1_0bas_humn_v00.png" id="2_rrmco"]
 [ext_resource type="Script" uid="uid://dqy2ien7slnjm" path="res://character/scenes/animated_sprite_2d.gd" id="4_m4xql"]
 [ext_resource type="Script" uid="uid://dvlhrb7410gxc" path="res://character/scenes/Inventario.gd" id="5_84duy"]
-[ext_resource type="Script" uid="uid://bey0f00y6f56g" path="res://character/scenes/crafting.gd" id="6_ih43v"]
+[ext_resource type="Script" uid="uid://bey0f00y6f56g" path="res://character/scenes/Crafting.gd" id="6_ih43v"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_onrkg"]
 size = Vector2(13, 5)
@@ -251,11 +251,8 @@ animations = [{
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8pbi5"]
 
-[node name="player" type="CharacterBody2D" unique_id=941286576]
+[node name="player" type="CharacterBody2D" unique_id=941286576 groups=["player"]]
 script = ExtResource("1_mto2y")
-move_speed = null
-acceleration = null
-friction = null
 metadata/_edit_lock_ = true
 
 [node name="colisao" type="CollisionShape2D" parent="." unique_id=408766911]
