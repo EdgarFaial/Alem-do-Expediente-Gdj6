@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bctoovqjab2qp"]
 
-[ext_resource type="Script" uid="uid://ba3on1th51tv" path="res://componentes/entrada_caverna.gd" id="1_sk2e0"]
+[ext_resource type="Script" uid="uid://cux6a352scm5y" path="res://componentes/saida_caverna.gd" id="1_sk2e0"]
 
 [sub_resource type="GDScript" id="GDScript_nag8x"]
 script/source = "extends Sprite2D
