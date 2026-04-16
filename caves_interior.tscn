@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://vfchlikwa6rg"]
+
+[sub_resource type="TileSet" id="TileSet_3bhey"]
+tile_size = Vector2i(32, 32)
+
+[node name="caves interior" type="TileMap" unique_id=1717377848]
+tile_set = SubResource("TileSet_3bhey")
+format = 2

@@ -1,12 +1,12 @@
 [gd_scene format=4 uid="uid://3a1duclt08jj"]
 
+[ext_resource type="PackedScene" uid="uid://vfchlikwa6rg" path="res://caves_interior.tscn" id="1_q84tj"]
 [ext_resource type="PackedScene" uid="uid://csvue5dxr620x" path="res://character/scenes/player.tscn" id="1_vv5lq"]
 [ext_resource type="PackedScene" uid="uid://b6b406pyl2v82" path="res://terrain/terrain.tscn" id="2_5xy7y"]
 [ext_resource type="Texture2D" uid="uid://bdpe27ar3jyhj" path="res://terrain/assets/48x48 resize/gentle forest (48x48 resize) v01.png" id="2_coqul"]
 [ext_resource type="Texture2D" uid="uid://b2xeljh3gt47s" path="res://terrain/assets/48x48 resize/gentle animations (48x48 resize) v03.png" id="3_1mcqx"]
 [ext_resource type="Texture2D" uid="uid://kpjatmngvfhk" path="res://terrain/assets/48x48 resize/gentle forest (48x48 resize) v02.png" id="3_fibf2"]
 [ext_resource type="Texture2D" uid="uid://bx2kmnpf14tik" path="res://terrain/assets/48x48 resize/gentle forest (48x48 resize) v03.png" id="4_j16nl"]
-[ext_resource type="Texture2D" uid="uid://cqy7ebua51y6w" path="res://terrain/assets/areia.png" id="6_q84tj"]
 [ext_resource type="Texture2D" uid="uid://i0bt1uthh8kv" path="res://terrain/assets/New Piskel.png" id="7_qp0dn"]
 [ext_resource type="Texture2D" uid="uid://c3ws0bxuaet2f" path="res://terrain/assets/New Piskel (3).png" id="8_gscsl"]
 
@@ -1239,7 +1239,6 @@ texture_region_size = Vector2i(48, 48)
 15:15/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3mbll"]
-texture = ExtResource("6_q84tj")
 texture_region_size = Vector2i(48, 48)
 0:0/0 = 0
 
@@ -1254,7 +1253,6 @@ texture_region_size = Vector2i(48, 48)
 0:0/0 = 0
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vq6r8"]
-load_path = "res://.godot/imported/New Piskel (1).png-69e8c41031b9bc7aa1305cb700b847c2.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fb56v"]
 texture = SubResource("CompressedTexture2D_vq6r8")
@@ -1262,7 +1260,6 @@ texture_region_size = Vector2i(48, 48)
 0:0/0 = 0
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ws1f4"]
-load_path = "res://.godot/imported/New Piskel (2).png-817d6b072e213033d2111eb49c929903.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_be30i"]
 texture = SubResource("CompressedTexture2D_ws1f4")
@@ -1296,6 +1293,8 @@ sources/9 = SubResource("TileSetAtlasSource_31mqb")
 
 [node name="Level" type="Node2D" unique_id=1105228326]
 metadata/_edit_horizontal_guides_ = [705.0]
+
+[node name="caves interior" parent="." unique_id=1717377848 instance=ExtResource("1_q84tj")]
 
 [node name="Terrain" parent="." unique_id=796177661 instance=ExtResource("2_5xy7y")]
 tile_set = SubResource("TileSet_j16nl")
