@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bu2yyudskmlyo"
-path="res://.godot/imported/player.svg-52a55cab3f3db3267751193f4141534e.ctex"
+uid="uid://c3ws0bxuaet2f"
+path="res://.godot/imported/New Piskel (3).png-969efd527b25c8c10cfa98d40073b55c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://character/player.svg"
-dest_files=["res://.godot/imported/player.svg-52a55cab3f3db3267751193f4141534e.ctex"]
+source_file="res://terrain/assets/New Piskel (3).png"
+dest_files=["res://.godot/imported/New Piskel (3).png-969efd527b25c8c10cfa98d40073b55c.ctex"]
 
 [params]
 
@@ -38,6 +38,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false
