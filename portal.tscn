@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://cvfnhrfs6hvq8"]
+
+[ext_resource type="Texture2D" uid="uid://7e10mlr3btgm" path="res://pixilart-frames/pixil-frame-7.png" id="1_0r486"]
+
+[sub_resource type="Animation" id="Animation_ef3v5"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_0r486")]
+}
+
+[sub_resource type="Animation" id="Animation_grrij"]
+resource_name = "portal"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_0r486")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_6r214"]
+_data = {
+&"RESET": SubResource("Animation_ef3v5"),
+&"portal": SubResource("Animation_grrij")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0r486"]
+size = Vector2(64, 64)
+
+[node name="Sprite2D" type="Sprite2D" unique_id=1145511218]
+texture = ExtResource("1_0r486")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=433537714]
+libraries/ = SubResource("AnimationLibrary_6r214")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1695080089]
+shape = SubResource("RectangleShape2D_0r486")
