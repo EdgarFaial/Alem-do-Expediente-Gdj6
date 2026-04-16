@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bu2yyudskmlyo"
-path="res://.godot/imported/player.svg-52a55cab3f3db3267751193f4141534e.ctex"
+uid="uid://c6k0wk55tjjm3"
+path="res://.godot/imported/TX Tileset Stone Ground.png-d81b9dbd54297e7df1dc8d97add3a6e6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://character/player.svg"
-dest_files=["res://.godot/imported/player.svg-52a55cab3f3db3267751193f4141534e.ctex"]
+source_file="res://terrain/assets/TX Tileset Stone Ground.png"
+dest_files=["res://.godot/imported/TX Tileset Stone Ground.png-d81b9dbd54297e7df1dc8d97add3a6e6.ctex"]
 
 [params]
 
@@ -38,6 +38,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false

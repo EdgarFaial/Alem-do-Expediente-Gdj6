@@ -1,15 +1,16 @@
 extends Area2D
+class_name entrada_caverna
 
-var pode_teleportar := true
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
 
-func _ready():
-    body_entered.connect(_on_body_entered)
 
-func _on_body_entered(body):
-    if body is CharacterBody2D:
-        if not pode_teleportar:
-            return
-        pode_teleportar = false
-        body.global_position = Vector2(10358, 1137)
-        await get_tree().create_timer(0.5).timeout
-        pode_teleportar = true
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+
+
+func _on_body_entered(body: Node2D) -> void:
+	if _body CharacterBody2D
+	pass # Replace with function body.

@@ -14,9 +14,9 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 
 [application]
 
-config/name="Alem-do-expediente-gdj 6-main 2"
+config/name="Alem Do Expediente Gdj 6 Main (1)"
 run/main_scene="uid://csvue5dxr620x"
-config/features=PackedStringArray("4.4", "GL Compatibility")
+config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [display]

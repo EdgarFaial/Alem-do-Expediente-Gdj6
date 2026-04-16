@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=3 uid="uid://csvue5dxr620x"]
+[gd_scene format=3 uid="uid://csvue5dxr620x"]
 
 [ext_resource type="Script" uid="uid://77g4ysm22xvw" path="res://character/scripts/player.gd" id="1_mto2y"]
 [ext_resource type="Script" uid="uid://bm8hav5dx25dm" path="res://character/scenes/camera_2d.gd" id="2_mto2y"]
@@ -247,23 +247,24 @@ animations = [{
 "speed": 10.0
 }]
 
-[node name="player" type="CharacterBody2D"]
+[node name="player" type="CharacterBody2D" unique_id=941286576]
 script = ExtResource("1_mto2y")
 metadata/_edit_lock_ = true
 
-[node name="colisao" type="CollisionShape2D" parent="."]
+[node name="colisao" type="CollisionShape2D" parent="." unique_id=408766911]
 position = Vector2(-1.5, -0.5)
 shape = SubResource("RectangleShape2D_onrkg")
 
-[node name="texture" type="Sprite2D" parent="."]
+[node name="texture" type="Sprite2D" parent="." unique_id=2044214975]
 position = Vector2(0, -9)
 hframes = 8
 vframes = 8
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=2045841370]
+position = Vector2(0, -9)
 script = ExtResource("2_mto2y")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=530145552]
 position = Vector2(-1, -10)
 sprite_frames = SubResource("SpriteFrames_a8xe1")
 animation = &"walk_up"

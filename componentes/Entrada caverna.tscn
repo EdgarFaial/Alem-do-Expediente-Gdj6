@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://bctoovqjab2qp"]
+[gd_scene format=3 uid="uid://bctoovqjab2qp"]
 
 [ext_resource type="Script" uid="uid://ba3on1th51tv" path="res://componentes/entrada_caverna.gd" id="1_sk2e0"]
 
@@ -17,17 +17,15 @@ func _process(delta: float) -> void:
 "
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3r2ol"]
-size = Vector2(79, 40)
+size = Vector2(47, 40)
 
-[node name="Entrada" type="Area2D"]
+[node name="Entrada" type="Area2D" unique_id=39083397]
 script = ExtResource("1_sk2e0")
-posicao_destino = null
 
-[node name="sprite" type="Sprite2D" parent="."]
+[node name="sprite" type="Sprite2D" parent="." unique_id=2056808385]
 script = SubResource("GDScript_nag8x")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-0.5, 0)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2037882130]
 shape = SubResource("RectangleShape2D_3r2ol")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
