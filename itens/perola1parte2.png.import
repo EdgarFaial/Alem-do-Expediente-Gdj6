@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3ws0bxuaet2f"
-path="res://.godot/imported/New Piskel (3).png-969efd527b25c8c10cfa98d40073b55c.ctex"
+uid="uid://ikqfvcbbcqcy"
+path="res://.godot/imported/perola1parte2.png-8833edbd8698bafc4c89df21ec9049b3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://terrain/assets/New Piskel (3).png"
-dest_files=["res://.godot/imported/New Piskel (3).png-969efd527b25c8c10cfa98d40073b55c.ctex"]
+source_file="res://itens/perola1parte2.png"
+dest_files=["res://.godot/imported/perola1parte2.png-8833edbd8698bafc4c89df21ec9049b3.ctex"]
 
 [params]
 

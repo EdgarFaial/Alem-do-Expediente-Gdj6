@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3ws0bxuaet2f"
-path="res://.godot/imported/New Piskel (3).png-969efd527b25c8c10cfa98d40073b55c.ctex"
+uid="uid://baj403rcrm1l4"
+path="res://.godot/imported/pau.png-0db084f9c82a7907a82fe356d5f092c5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://terrain/assets/New Piskel (3).png"
-dest_files=["res://.godot/imported/New Piskel (3).png-969efd527b25c8c10cfa98d40073b55c.ctex"]
+source_file="res://itens/pau.png"
+dest_files=["res://.godot/imported/pau.png-0db084f9c82a7907a82fe356d5f092c5.ctex"]
 
 [params]
 

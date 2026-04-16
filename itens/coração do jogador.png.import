@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3ws0bxuaet2f"
-path="res://.godot/imported/New Piskel (3).png-969efd527b25c8c10cfa98d40073b55c.ctex"
+uid="uid://cykbvg3ho683m"
+path="res://.godot/imported/coração do jogador.png-96da74e70a163c65d1e19a26150f1b6c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://terrain/assets/New Piskel (3).png"
-dest_files=["res://.godot/imported/New Piskel (3).png-969efd527b25c8c10cfa98d40073b55c.ctex"]
+source_file="res://itens/coração do jogador.png"
+dest_files=["res://.godot/imported/coração do jogador.png-96da74e70a163c65d1e19a26150f1b6c.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3ws0bxuaet2f"
-path="res://.godot/imported/New Piskel (3).png-969efd527b25c8c10cfa98d40073b55c.ctex"
+uid="uid://cn7wag0onw86b"
+path="res://.godot/imported/areia.png-277234e350db893b08e4e995dd95dddb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://terrain/assets/New Piskel (3).png"
-dest_files=["res://.godot/imported/New Piskel (3).png-969efd527b25c8c10cfa98d40073b55c.ctex"]
+source_file="res://itens/areia.png"
+dest_files=["res://.godot/imported/areia.png-277234e350db893b08e4e995dd95dddb.ctex"]
 
 [params]
 

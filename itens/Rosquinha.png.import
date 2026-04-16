@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3ws0bxuaet2f"
-path="res://.godot/imported/New Piskel (3).png-969efd527b25c8c10cfa98d40073b55c.ctex"
+uid="uid://cxy3icswc3u5q"
+path="res://.godot/imported/Rosquinha.png-aed15fe0fa71f492755e06d92ffca8c3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://terrain/assets/New Piskel (3).png"
-dest_files=["res://.godot/imported/New Piskel (3).png-969efd527b25c8c10cfa98d40073b55c.ctex"]
+source_file="res://itens/Rosquinha.png"
+dest_files=["res://.godot/imported/Rosquinha.png-aed15fe0fa71f492755e06d92ffca8c3.ctex"]
 
 [params]
 

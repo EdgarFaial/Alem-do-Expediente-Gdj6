@@ -10,6 +10,6 @@ func _on_body_entered(body):
 		if not pode_teleportar:
 			return
 		pode_teleportar = false
-		body.global_position = Vector2(10372.0, 1097.0)
+		body.global_position = Vector2(334.0, 153.0)
 		await get_tree().create_timer(0.5).timeout
 		pode_teleportar = true

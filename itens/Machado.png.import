@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3ws0bxuaet2f"
-path="res://.godot/imported/New Piskel (3).png-969efd527b25c8c10cfa98d40073b55c.ctex"
+uid="uid://bcg2083tuit5c"
+path="res://.godot/imported/Machado.png-1a97154264d1d4839fd92c2a1272c8f0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://terrain/assets/New Piskel (3).png"
-dest_files=["res://.godot/imported/New Piskel (3).png-969efd527b25c8c10cfa98d40073b55c.ctex"]
+source_file="res://itens/Machado.png"
+dest_files=["res://.godot/imported/Machado.png-1a97154264d1d4839fd92c2a1272c8f0.ctex"]
 
 [params]
 
