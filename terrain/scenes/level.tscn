@@ -17,6 +17,7 @@
 [ext_resource type="Texture2D" uid="uid://d1ykkdc5vkyk5" path="res://itens/perola1parte1.png" id="12_xyuau"]
 [ext_resource type="Texture2D" uid="uid://baj403rcrm1l4" path="res://itens/pau.png" id="13_6a7cl"]
 [ext_resource type="Script" uid="uid://ba3on1th51tv" path="res://componentes/entrada_caverna.gd" id="14_6a7cl"]
+[ext_resource type="PackedScene" uid="uid://cwo7lkmvpbbe1" path="res://carta.tscn" id="16_31mqb"]
 [ext_resource type="PackedScene" uid="uid://cvfnhrfs6hvq8" path="res://portal.tscn" id="18_31mqb"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_q84tj"]
@@ -1885,7 +1886,7 @@ position = Vector2(736, 97.00001)
 scale = Vector2(3, 3)
 
 [node name="player" parent="Terrain" unique_id=1611776545 instance=ExtResource("1_vv5lq")]
-position = Vector2(1073.8546, 189.51682)
+position = Vector2(-9636, 727)
 scale = Vector2(3, 3)
 
 [node name="Layer2" type="TileMapLayer" parent="Terrain" unique_id=1621497796]
@@ -1900,6 +1901,9 @@ position = Vector2(10372, 1107)
 position = Vector2(-2, 839)
 
 [node name="InventarioUI" parent="." unique_id=1069673132 instance=ExtResource("11_gscsl")]
+
+[node name="carta" parent="InventarioUI" unique_id=1144011734 instance=ExtResource("16_31mqb")]
+position = Vector2(-9549, 546)
 
 [node name="perola" type="Sprite2D" parent="." unique_id=1559326874]
 position = Vector2(535, 1828)
