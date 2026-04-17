@@ -111,3 +111,22 @@ func criar_item_teste_no_chao():
 	print("Item de teste criado na posição: ", coletavel.position)
 func add_coletavel(coletavel):
 	print("addicionando coletavel: ")
+	
+
+
+@onready var fala_label = $FalaLabel
+
+
+func falar(texto: String, duracao: float = 2.0):
+	# Mostra o texto
+	fala_label.text = texto
+	fala_label.visible = true
+	
+	# Esconde após a duração
+	await get_tree().create_timer(duracao).timeout
+	fala_label.visible = false
+	
+# Exemplo de uso:
+func _inputs(event):
+	if event.is_action_pressed("ui_inventory"):  # Tecla Espaço/Enter
+		falar("Olá, eu sou o jogador!")

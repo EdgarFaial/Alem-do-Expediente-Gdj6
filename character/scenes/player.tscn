@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://77g4ysm22xvw" path="res://character/scripts/player.gd" id="1_mto2y"]
 [ext_resource type="Script" uid="uid://bm8hav5dx25dm" path="res://character/scenes/camera_2d.gd" id="2_mto2y"]
 [ext_resource type="Texture2D" uid="uid://ilov0alj41g7" path="res://char_a_p1_0bas_humn_v00.png" id="2_rrmco"]
+[ext_resource type="PackedScene" uid="uid://cx1qssogbb7dx" path="res://fala_label.tscn" id="3_8pbi5"]
 [ext_resource type="Script" uid="uid://dqy2ien7slnjm" path="res://character/scenes/animated_sprite_2d.gd" id="4_m4xql"]
 [ext_resource type="Script" uid="uid://dvlhrb7410gxc" path="res://character/scenes/Inventario.gd" id="5_84duy"]
 [ext_resource type="Script" uid="uid://bey0f00y6f56g" path="res://character/scenes/Crafting.gd" id="6_ih43v"]
@@ -266,6 +267,8 @@ vframes = 8
 [node name="Camera2D" type="Camera2D" parent="." unique_id=2045841370]
 position = Vector2(0, -14)
 script = ExtResource("2_mto2y")
+
+[node name="FalaLabel" parent="Camera2D" unique_id=454064059 instance=ExtResource("3_8pbi5")]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=530145552]
 position = Vector2(1, -11)

@@ -17,7 +17,7 @@ func _process(delta: float) -> void:
 "
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3r2ol"]
-size = Vector2(47, 40)
+size = Vector2(114.25, 15)
 
 [node name="Entrada" type="Area2D" unique_id=39083397]
 script = ExtResource("1_sk2e0")
