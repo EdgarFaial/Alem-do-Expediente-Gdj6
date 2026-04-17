@@ -1,11 +1,11 @@
-[gd_scene format=3 uid="uid://nxv6i1msq5yc"]
+[gd_scene load_steps=2 format=3 uid="uid://nxv6i1msq5yc"]
 
 [ext_resource type="Script" uid="uid://cm83hw7y0itbu" path="res://inventarioui.gd" id="1_2uudg"]
 
-[node name="InventarioUI" type="CanvasLayer" unique_id=1882179590]
+[node name="InventarioUI" type="CanvasLayer"]
 script = ExtResource("1_2uudg")
 
-[node name="Panel" type="Panel" parent="." unique_id=214735531]
+[node name="Panel" type="Panel" parent="."]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -18,7 +18,7 @@ offset_bottom = 150.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="GridContainer" type="GridContainer" parent="Panel" unique_id=306497638]
+[node name="GridContainer" type="GridContainer" parent="Panel"]
 layout_mode = 0
 offset_right = 400.0
 offset_bottom = 300.0

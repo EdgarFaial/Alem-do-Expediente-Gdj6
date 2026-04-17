@@ -1,0 +1,49 @@
+[gd_scene load_steps=4 format=3 uid="uid://ciajjkt0fhlgi"]
+
+[ext_resource type="Script" uid="uid://dictr1m84f4vb" path="res://carta.gd" id="1_7n6eb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_77s45"]
+size = Vector2(116.5, 37)
+
+[sub_resource type="LabelSettings" id="LabelSettings_4gtqo"]
+outline_size = 5
+outline_color = Color(0, 0, 0, 1)
+
+[node name="tutorial" type="Area2D"]
+position = Vector2(0, -2)
+script = ExtResource("1_7n6eb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_77s45")
+
+[node name="Label" type="Label" parent="."]
+visibility_layer = 2
+offset_left = -66.0
+offset_top = -75.0
+offset_right = 208.0
+offset_bottom = -26.0
+scale = Vector2(0.5, 0.5)
+text = "procure pelos fragmentos no mapa para abrir o portal"
+label_settings = SubResource("LabelSettings_4gtqo")
+horizontal_alignment = 3
+vertical_alignment = 1
+
+[node name="Panel" type="Panel" parent="Label"]
+layout_mode = 0
+offset_left = -8.0
+offset_top = -10.0
+offset_right = 36.0
+offset_bottom = -1.0
+scale = Vector2(9.96287, 7.46846)
+
+[node name="Label" type="Label" parent="Label"]
+visibility_layer = 2
+layout_mode = 0
+offset_right = 274.0
+offset_bottom = 49.0
+text = "procure pelos fragmentos no mapa para abrir o portal"
+label_settings = SubResource("LabelSettings_4gtqo")
+horizontal_alignment = 3
+vertical_alignment = 1
+
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
