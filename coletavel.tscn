@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bcduvbmuqxn5l"]
 
 [ext_resource type="Script" uid="uid://br22kw40nnlpq" path="res://Coletavel.gd" id="1_nkxo6"]
-[ext_resource type="Texture2D" uid="uid://x3a3r8sajeap" path="res://icon.svg" id="2_m71mx"]
+[ext_resource type="Texture2D" uid="uid://d1ykkdc5vkyk5" path="res://itens/perola1parte1.png" id="2_m71mx"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f37wl"]
 size = Vector2(121, 127)
@@ -14,6 +14,7 @@ position = Vector2(0.5, 2.5)
 shape = SubResource("RectangleShape2D_f37wl")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1123523260]
+scale = Vector2(4, 4)
 texture = ExtResource("2_m71mx")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
