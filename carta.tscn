@@ -4,11 +4,28 @@
 [ext_resource type="Script" uid="uid://dvc3a33j76joh" path="res://canvas_layer.gd" id="2_77s45"]
 [ext_resource type="Texture2D" uid="uid://d1ssrqbnyfvj7" path="res://terrain/Carta.png" id="3_77s45"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_77s45"]
+size = Vector2(26, 37)
+
 [node name="carta" type="Area2D" unique_id=1144011734]
 script = ExtResource("1_4gtqo")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1743071263]
 script = ExtResource("2_77s45")
 
+[node name="Panel" type="Panel" parent="CanvasLayer" unique_id=119556822]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="CanvasLayer/Panel" unique_id=1623153850]
+layout_mode = 0
+offset_right = 2150.0
+offset_bottom = 23.0
+text = "Ah, finalmente eu consegui sair daquela cidade grotesca \\n foram infinitas horas repondo caixas nas prateleiras do supermercado, eu não podia continuar \\n não podia terminar como todos da minha fámilia terminaram... \\n Talvez aqui eu possa encontrar um pouco de sossego.\""
+
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1246685492]
 texture = ExtResource("3_77s45")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1413230624]
+position = Vector2(0, 2.5)
+shape = SubResource("RectangleShape2D_77s45")

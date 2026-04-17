@@ -28,6 +28,7 @@
 [ext_resource type="Script" uid="uid://b6llktlqup1co" path="res://ItemBase.gd" id="23_hpl7g"]
 [ext_resource type="Script" uid="uid://c15pvi6mahd1x" path="res://componentes/portal1.gd" id="25_7naby"]
 [ext_resource type="Script" uid="uid://cswaj2s81ohhh" path="res://componentes/portal2.gd" id="26_wthi3"]
+[ext_resource type="PackedScene" uid="uid://cwo7lkmvpbbe1" path="res://carta.tscn" id="29_hpl7g"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_q84tj"]
 texture = ExtResource("2_coqul")
@@ -2151,7 +2152,6 @@ scale = Vector2(3, 3)
 position = Vector2(-9732.958, 698.6972)
 scale = Vector2(3, 3)
 script = ExtResource("12_igef8")
-metadata/_edit_lock_ = true
 
 [node name="colisao" type="CollisionShape2D" parent="Terrain/player" unique_id=408766911]
 shape = SubResource("RectangleShape2D_onrkg")
@@ -2192,7 +2192,7 @@ position = Vector2(35.15336, 3.161354)
 shape = SubResource("RectangleShape2D_8pbi5")
 
 [node name="portal2" parent="Terrain" unique_id=930396835 instance=ExtResource("18_31mqb")]
-position = Vector2(-9730, 662)
+position = Vector2(-9739, 665)
 scale = Vector2(3, 3)
 
 [node name="Layer2" type="TileMapLayer" parent="Terrain" unique_id=1621497796]
@@ -2238,3 +2238,7 @@ script = ExtResource("26_wthi3")
 [node name="coletavel2" parent="." unique_id=29728767 instance=ExtResource("10_gscsl")]
 position = Vector2(10637, -596)
 item = SubResource("Resource_buv1t")
+
+[node name="carta" parent="." unique_id=1144011734 instance=ExtResource("29_hpl7g")]
+position = Vector2(-9549, 554.00006)
+scale = Vector2(3, 3)
