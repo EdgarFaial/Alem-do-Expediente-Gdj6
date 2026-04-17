@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://bctoovqjab2qp"]
+[gd_scene load_steps=4 format=3 uid="uid://bctoovqjab2qp"]
 
 [ext_resource type="Script" uid="uid://cux6a352scm5y" path="res://componentes/saida_caverna.gd" id="1_sk2e0"]
 
@@ -19,13 +19,13 @@ func _process(delta: float) -> void:
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3r2ol"]
 size = Vector2(114.25, 15)
 
-[node name="Entrada" type="Area2D" unique_id=39083397]
+[node name="Entrada" type="Area2D"]
 script = ExtResource("1_sk2e0")
 
-[node name="sprite" type="Sprite2D" parent="." unique_id=2056808385]
+[node name="sprite" type="Sprite2D" parent="."]
 script = SubResource("GDScript_nag8x")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2037882130]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_3r2ol")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

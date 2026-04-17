@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://csvue5dxr620x"]
+[gd_scene load_steps=39 format=3 uid="uid://csvue5dxr620x"]
 
 [ext_resource type="Script" uid="uid://77g4ysm22xvw" path="res://character/scripts/player.gd" id="1_mto2y"]
 [ext_resource type="Script" uid="uid://bm8hav5dx25dm" path="res://character/scenes/camera_2d.gd" id="2_mto2y"]
@@ -252,38 +252,51 @@ animations = [{
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8pbi5"]
 
-[node name="player" type="CharacterBody2D" unique_id=941286576 groups=["player"]]
+[node name="player" type="CharacterBody2D" groups=["player"]]
 script = ExtResource("1_mto2y")
 metadata/_edit_lock_ = true
 
-[node name="colisao" type="CollisionShape2D" parent="." unique_id=408766911]
+[node name="colisao" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_onrkg")
 
-[node name="texture" type="Sprite2D" parent="." unique_id=2044214975]
+[node name="texture" type="Sprite2D" parent="."]
 visible = false
 hframes = 8
 vframes = 8
 
-[node name="Camera2D" type="Camera2D" parent="." unique_id=2045841370]
+[node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(0, -14)
 script = ExtResource("2_mto2y")
 
-[node name="FalaLabel" parent="Camera2D" unique_id=454064059 instance=ExtResource("3_8pbi5")]
+[node name="Panel" type="Panel" parent="Camera2D"]
+offset_left = -84.0
+offset_top = -50.0
+offset_right = 88.0
+offset_bottom = -17.0
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=530145552]
+[node name="FalaLabel" parent="Camera2D/Panel" instance=ExtResource("3_8pbi5")]
+layout_mode = 1
+offset_left = 1.0
+offset_bottom = -2.0
+theme_override_font_sizes/font_size = 10
+text = "É hora de voltar, mas...
+talvez eu tenha sido mais feliz aqui."
+horizontal_alignment = 1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(1, -11)
 sprite_frames = SubResource("SpriteFrames_a8xe1")
 animation = &"walk_up"
 script = ExtResource("4_m4xql")
 
-[node name="Inventario" type="Node" parent="." unique_id=1996447661]
+[node name="Inventario" type="Node" parent="."]
 script = ExtResource("5_84duy")
 
-[node name="crafting" type="Node" parent="." unique_id=1812241056]
+[node name="crafting" type="Node" parent="."]
 script = ExtResource("6_ih43v")
 
-[node name="AreaDeteccao" type="Area2D" parent="." unique_id=1402377062]
+[node name="AreaDeteccao" type="Area2D" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="AreaDeteccao" unique_id=1595048544]
-position = Vector2(35.15336, 3.161354)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AreaDeteccao"]
+position = Vector2(35.1534, 3.16135)
 shape = SubResource("RectangleShape2D_8pbi5")
